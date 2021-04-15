@@ -187,7 +187,7 @@ module.exports = {
         compress: true, //服务器压缩是否开启
         hot: true, //热更新
         open: true, // 自动打开浏览器
-        contentBase: '../dist'
+        contentBase: '/dist'
     },
     optimization: {
         minimize: true,
